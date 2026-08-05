@@ -15,3 +15,8 @@ body {
     height: 500px;
 }
 
+.basement{
+    display: flex;
+    justify-content: space-between;
+}
+
