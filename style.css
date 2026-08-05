@@ -17,9 +17,16 @@ body {
 }
 
 .basement{
-    margin: 24px 158px;
-    padding: 16px 24px ;
+    border-top: 1px solid gray;
     display: flex;
     justify-content: space-between;
+    color: gray;
+    margin: 16px 158px;
+    padding: 0 ;
+    
 }
 
+#gitm {
+    color: gray;
+    padding-top: 16px;
+}
