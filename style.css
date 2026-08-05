@@ -7,10 +7,11 @@ html {
 }
 
 body {
-   
+   font-family: "Instrument Serif", "Times New Roman", serif;
 }
 
 .photo {
     width: 500px;
     height: 500px;
 }
+
