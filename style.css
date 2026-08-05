@@ -3,11 +3,13 @@
 }
 
 html {
-    
+    scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
    font-family: "Instrument Serif", "Times New Roman", serif;
+   background-color: rgb(255, 255, 255);
 }
 
 .photo {
@@ -16,14 +18,23 @@ body {
     height: 500px;
 }
 
+#icon-tf2 {
+   height: 200px;
+   width: 200px;
+}
+
+header {
+
+
+
+}
+
 .basement{
     border-top: 1px solid gray;
     display: flex;
     justify-content: space-between;
     color: gray;
-    margin: 16px 158px;
-    padding: 0 ;
-    
+    margin: 16px 158px; 
 }
 
 #gitm {
