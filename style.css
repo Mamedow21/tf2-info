@@ -2,3 +2,15 @@
  box-sizing: border-box;
 }
 
+html {
+    
+}
+
+body {
+   
+}
+
+.photo {
+    width: 500px;
+    height: 500px;
+}
