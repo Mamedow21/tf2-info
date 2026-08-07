@@ -33,6 +33,11 @@ body {
     background: black;
 }
 
+.card {
+    border: 1px solid orangered;
+    margin: 16px 600px;
+}
+
 .basement{
     border-top: 1px solid gray;
     display: flex;
