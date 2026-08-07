@@ -28,14 +28,32 @@ body {
     border-radius: 12px;
 }
 
+#info {
+    display: flex;
+    flex: 1;
+}
+
 .icon-main-tf {
-    border: 1px solid black;
-    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.textinfo{
+    margin: 16px 24px;
+}
+
+.glavainfo{
+    display: flex;
+    justify-content: center;
 }
 
 .card {
-    border: 1px solid orangered;
-    margin: 16px 600px;
+    margin: 16px 500px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(194, 107, 49);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .basement{
