@@ -18,6 +18,35 @@ body {
     height: 500px;
 }
 
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.supernav{
+    border: 1px solid black;
+    border-radius: 16px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 16px 400px;
+    padding: 16px;
+}
+
+.nav-card{
+    color: white
+}
+
+#photo-tf2-stand {
+    width: 1800px;
+    height: 1100px;
+    margin: 16px 40px;
+
+}
+
 #icon-tf2 {
    height: 200px;
    width: 200px;
@@ -26,7 +55,6 @@ body {
 #info {
     border-radius: 12px;
     display: flex;
-    flex: 1;
 }
 
 .icon-main-tf {
