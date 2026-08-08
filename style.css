@@ -10,6 +10,7 @@ html {
 body {
    font-family: "Instrument Serif", "Times New Roman", serif;
    background-color: rgb(255, 255, 255);
+   border: 1px solid black;
 }
 
 .photo {
