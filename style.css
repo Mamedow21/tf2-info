@@ -9,7 +9,6 @@ html {
 
 body {
    font-family: "Instrument Serif", "Times New Roman", serif;
-   border: 1px solid black;
    background: rgb(214, 208, 208);
 }
 
@@ -323,6 +322,36 @@ header{
 }
 
 .drygoe-sniper{
+    flex-direction: column;
+    font-size: 24px;
+    row-gap: 50px;
+}
+
+#Spy {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 16px;
+    background: white;
+    order: 2;
+    margin: 16px 150px;
+    font-size: 20px;
+}
+
+#spy-photo {
+    border: 2px solid black;
+}
+
+.osnmar-spy{
+     display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    padding-left: 16px;
+    margin: 16px 16px;
+    margin-left: 16px;
+}
+
+.drygoe-spy{
     flex-direction: column;
     font-size: 24px;
     row-gap: 50px;
