@@ -11,6 +11,7 @@ body {
    font-family: "Instrument Serif", "Times New Roman", serif;
    background-color: rgb(255, 255, 255);
    border: 1px solid black;
+   background: radial-gradient(circle at center top,white, gray, rgb(187, 142, 91), rgb(122, 74, 29), rgb(160, 78, 1));
 }
 
 .photo {
