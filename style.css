@@ -47,7 +47,6 @@ header{
     height: 1100px;
     margin: 16px 40px;
     border: 2px solid black;
-
 }
 
 #icon-tf2 {
@@ -91,7 +90,6 @@ header{
     order: 2;
     margin: 16px 150px;
     font-size: 20px;
-
 }
 
 #scout-photo {
@@ -128,7 +126,6 @@ header{
     order: 2;
     margin: 16px 150px;
     font-size: 20px;
-
 }
 
 #solder-photo {
@@ -159,7 +156,6 @@ header{
     order: 2;
     margin: 16px 150px;
     font-size: 20px;
-
 }
 
 #pyro-photo {
@@ -177,6 +173,36 @@ header{
 }
 
 .drygoe-pyro{
+    flex-direction: column;
+    font-size: 24px;
+    row-gap: 50px;
+}
+
+#Demoman {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 16px;
+    background: white;
+    order: 2;
+    margin: 16px 150px;
+    font-size: 20px;
+}
+
+#demoman-photo {
+    border: 2px solid black;
+}
+
+.osnmar-demoman{
+     display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    padding-left: 16px;
+    margin: 16px 16px;
+    margin-left: 16px;
+}
+
+.drygoe-demoman{
     flex-direction: column;
     font-size: 24px;
     row-gap: 50px;
