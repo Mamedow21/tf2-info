@@ -238,6 +238,96 @@ header{
     row-gap: 50px;
 }
 
+#Engineer {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 16px;
+    background: white;
+    order: 2;
+    margin: 16px 150px;
+    font-size: 20px;
+}
+
+#engineer-photo {
+    border: 2px solid black;
+}
+
+.osnmar-engineer{
+     display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    padding-left: 16px;
+    margin: 16px 16px;
+    margin-left: 16px;
+}
+
+.drygoe-engineer{
+    flex-direction: column;
+    font-size: 24px;
+    row-gap: 50px;
+}
+
+#Medic {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 16px;
+    background: white;
+    order: 2;
+    margin: 16px 150px;
+    font-size: 20px;
+}
+
+#medic-photo {
+    border: 2px solid black;
+}
+
+.osnmar-medic{
+     display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    padding-left: 16px;
+    margin: 16px 16px;
+    margin-left: 16px;
+}
+
+.drygoe-medic{
+    flex-direction: column;
+    font-size: 24px;
+    row-gap: 50px;
+}
+
+#Sniper {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 16px;
+    background: white;
+    order: 2;
+    margin: 16px 150px;
+    font-size: 20px;
+}
+
+#sniper-photo {
+    border: 2px solid black;
+}
+
+.osnmar-sniper{
+     display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    padding-left: 16px;
+    margin: 16px 16px;
+    margin-left: 16px;
+}
+
+.drygoe-sniper{
+    flex-direction: column;
+    font-size: 24px;
+    row-gap: 50px;
+}
+
 .basement{
     border-top: 1px solid gray;
     display: flex;
