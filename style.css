@@ -14,6 +14,7 @@ body {
 }
 
 .photo {
+    order: -1;
     width: 500px;
     height: 500px;
 }
@@ -82,11 +83,32 @@ header{
 
 #Scout {
     display: flex;
-    
     border: 1px solid black;
     border-radius: 16px;
     background: white;
+    order: 2;
 
+}
+
+.osnmar {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    padding-left: 16px;
+    border: 1px solid black;
+    margin: 16px 600px;
+    margin-left: 16px;
+}
+
+.drygoe-scout{
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.name {
+    order: 0;
+    margin: 4px 250px;
 }
 
 .basement{
