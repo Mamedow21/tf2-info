@@ -98,7 +98,7 @@ header{
     border: 2px solid black;
 }
 
-.osnmar {
+.osnmar-scout {
     display: flex;
     flex-direction: column;
     margin: 16px 16px;
@@ -118,6 +118,37 @@ header{
     order: 0;
     margin: 4px 4px;
     margin-left: 250px;
+}
+
+#Solder {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 16px;
+    background: white;
+    order: 2;
+    margin: 16px 150px;
+    font-size: 20px;
+
+}
+
+#solder-photo {
+    border: 2px solid black;
+}
+
+.osnmar-solder{
+     display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    padding-left: 16px;
+    margin: 16px 16px;
+    margin-left: 16px;
+}
+
+.drygoe-solder{
+    flex-direction: column;
+    font-size: 24px;
+    row-gap: 50px;
 }
 
 .basement{
