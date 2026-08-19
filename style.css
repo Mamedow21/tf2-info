@@ -2,6 +2,13 @@
  box-sizing: border-box;
 }
 
+@media (min-width: 860px) {
+  * {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: stretch;
+  }
+}
+
 html {
     scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
