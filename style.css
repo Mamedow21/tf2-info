@@ -26,19 +26,14 @@ header {
     border-radius: 16px;
     background: rgb(0, 0, 0);
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 16px 400px;
+    margin: 16px auto;
     padding: 16px;
     gap: 10px;
 }
-@media screen and (min-width 860px) {
-    .supernav {
-        padding: 1000px
-        margin: 1000px
-    }
-}
+
 
 .nav-card {
     color: white;
@@ -57,7 +52,7 @@ header {
 }
 @media screen and (max-width: 860px) {
   #photo-tf2-stand {
-    width: 150px;
+    width: 200px;
     height: 250px;
   }
 }
@@ -87,12 +82,13 @@ header {
 }
 
 .card {
-    margin: 16px 500px;
+    margin: 16px auto;
     border: 2px solid rgb(0, 0, 0);
     background: white;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #Scout {
@@ -383,4 +379,9 @@ header {
     color: gray;
     padding-top: 16px;
     text-decoration: none;
+}
+
+.info {
+    flex-wrap: wrap;
+    margin: auto;
 }
