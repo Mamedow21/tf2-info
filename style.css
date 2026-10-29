@@ -3,6 +3,7 @@
 }
 
 
+
 html {
     scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
@@ -12,8 +13,6 @@ body {
    font-family: "Instrument Serif", "Times New Roman", serif;
    background: rgb(214, 208, 208);
 }
-
-
 
 header {
   display: flex;
@@ -47,6 +46,12 @@ header {
     width: 1800px;
     height: 1100px;
     border: 2px solid black;
+}
+@media screen and (min-width: 860px) {
+  #photo-tf2-stand {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 #icon-tf2 {
