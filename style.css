@@ -2,12 +2,6 @@
  box-sizing: border-box;
 }
 
-@media (min-width: 860px) {
-  * {
-    grid-template-columns: 1.05fr 0.95fr;
-    align-items: stretch;
-  }
-}
 
 html {
     scroll-behavior: smooth;
@@ -19,11 +13,7 @@ body {
    background: rgb(214, 208, 208);
 }
 
-.photo {
-    order: -1;
-    width: 500px;
-    height: 500px;
-}
+
 
 header {
   display: flex;
