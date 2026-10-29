@@ -22,14 +22,22 @@ header {
 }
 
 .supernav {
-    border: 1px solid black;
+    border: 5px solid rgba(233, 137, 13, 0.564);
     border-radius: 16px;
     background: rgb(0, 0, 0);
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    align-items: center;
     margin: 16px 400px;
     padding: 16px;
+    gap: 10px;
+}
+@media screen and (min-width 860px) {
+    .supernav {
+        padding: 1000px
+        margin: 1000px
+    }
 }
 
 .nav-card {
@@ -47,10 +55,10 @@ header {
     height: 1100px;
     border: 2px solid black;
 }
-@media screen and (min-width: 860px) {
+@media screen and (max-width: 860px) {
   #photo-tf2-stand {
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 250px;
   }
 }
 
