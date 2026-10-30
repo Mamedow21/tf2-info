@@ -46,14 +46,20 @@ header {
 }
  
 #photo-tf2-stand {
-    width: 1800px;
+    width: 1100px;
     height: 1100px;
-    border: 2px solid black;
+    border: 0px solid black;
 }
 @media screen and (max-width: 860px) {
   #photo-tf2-stand {
     width: 200px;
     height: 250px;
+  }
+}
+@media screen and (min-width: 860px) {
+  #photo-tf2-stand {
+   width: 600px;
+    height: 500x;
   }
 }
 
