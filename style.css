@@ -40,6 +40,13 @@ header {
     text-decoration: none;
 }
 
+@media screen and (min-width: 400px){
+    .photo{
+        width: 200px;
+        height: 250px;
+    }
+}
+
 .divhev {
     display: flex;
     justify-content: center;
@@ -63,8 +70,13 @@ header {
 }
 
 #info {
-    border-radius: 12px;
+     margin: 16px auto;
+    border: 2px solid rgb(0, 0, 0);
+    background: white;
+    border-radius: 16px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .icon-main-tf {
@@ -81,7 +93,7 @@ header {
     justify-content: center;
 }
 
-.card {
+.divhev {
     margin: 16px auto;
     border: 2px solid rgb(0, 0, 0);
     background: white;
@@ -92,17 +104,21 @@ header {
 }
 
 #Scout {
-    display: flex;
-    border: 5px solid black;
-    border-radius: 16px;
+  margin: 16px auto;
+    border: 2px solid rgb(0, 0, 0);
     background: white;
-    order: 2;
-    margin: 16px 150px;
-    font-size: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 16px, 16px;
 }
 
 #scout-photo {
     border: 2px solid black;
+    display: flex;
+     flex-wrap: wrap;
+    margin: auto;
 }
 
 .osnmar-scout {
@@ -116,16 +132,19 @@ header {
 }
 
 .drygoe-scout{
+    display: flex;
     flex-direction: column;
     font-size: 24px;
     row-gap: 50px;
 }
 
 .name {
+    display: flex;
     order: 0;
-    margin: 4px 4px;
-    margin-left: 250px;
+    margin: 4px auto;
+    justify-content:center;
 }
+
 
 #Solder {
     display: flex;
@@ -133,8 +152,8 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
     font-size: 20px;
+    margin: 16, auto;
 }
 
 #solder-photo {
@@ -163,7 +182,7 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
+    margin: 16px auto;
     font-size: 20px;
 }
 
@@ -193,7 +212,7 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
+    margin: 16px auto;
     font-size: 20px;
 }
 
@@ -223,7 +242,7 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
+    margin: 16px auto;
     font-size: 20px;
 }
 
@@ -253,7 +272,7 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
+    margin: 16px auto;
     font-size: 20px;
 }
 
@@ -283,7 +302,7 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
+    margin: 16px auto;
     font-size: 20px;
 }
 
@@ -313,7 +332,7 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
+    margin: 16px auto;
     font-size: 20px;
 }
 
@@ -343,7 +362,7 @@ header {
     border-radius: 16px;
     background: white;
     order: 2;
-    margin: 16px 150px;
+    margin: 16px auto;
     font-size: 20px;
 }
 
@@ -381,7 +400,9 @@ header {
     text-decoration: none;
 }
 
+
 .info {
+    display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
