@@ -103,20 +103,14 @@ header {
 }
 
 #Scout {
-     display: flex;
     border: 5px solid black;
     border-radius: 16px;
     background: white;
-    margin: 16px auto;
     font-size: 20px;
-    flex-wrap: wrap;
 }
 
 #scout-photo {
     border: 2px solid black;
-    display: flex;
-    justify-content: center;
-
 }
 
 .osnmar-scout {
